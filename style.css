@@ -24,8 +24,18 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
 .main {
   padding: 160px 20px;
   background-color: var(--background-color);
@@ -52,4 +62,39 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.space {
+  padding: 30px 50px;
+}
+@media (max-width: 900px) {
+  h1 {
+    padding-top: 10px;
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .space {
+    padding: 0 50px;
+  }
+
+  .main {
+    padding: 80px 20px;
+  }
 }
